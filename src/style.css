@@ -235,3 +235,10 @@ input:not([type=checkbox]),select{font-size:16px;min-height:52px;padding:14px 16
 .map-page .map-tools{right:16px;top:20px;gap:12px}
 .map-page .map-legend{bottom:0;flex-wrap:wrap;padding:14px 18px;line-height:1.4;background:#f5f6fa}
 }
+/* Swiping the map scrolls the page; controls handle mobile map movement. */
+.map-page .festival-map{touch-action:pan-y pinch-zoom}
+@media(max-width:600px){
+.map-page .map-sheet,.sheet-expanded .map-sheet{height:auto;max-height:none;overflow:visible}
+.map-page .map-sheet>.text-button:first-of-type,.map-page .sheet-handle{display:none}
+.map-page .map-sheet{padding:28px 24px}
+}
