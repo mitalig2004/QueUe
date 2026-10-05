@@ -212,3 +212,7 @@ input:not([type=checkbox]),select{font-size:16px;min-height:52px;padding:14px 16
 /* Quiet account control with readable neutral contrast. */
 .header-actions .avatar{background:#eeedf2;color:#51485d}
 .live-mode .header-actions .avatar{background:#3c3048;color:#eee8f3}
+.compact-footer{flex-wrap:wrap}
+.compact-footer .creator-credit{flex-basis:100%;text-align:right;font-size:14px;padding-top:16px}
+.compact-footer .creator-credit strong{color:var(--ink);font-weight:700}
+@media(max-width:600px){.compact-footer .creator-credit{text-align:left;line-height:1.6;padding-top:12px}}
