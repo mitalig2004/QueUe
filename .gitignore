@@ -7,3 +7,4 @@ tests/*.png
 tests/*results.json
 .env
 .env.*
+.vercel
