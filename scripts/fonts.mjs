@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+const url='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap';const response=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0'}});let css=await response.text();let i=0;for(const match of [...css.matchAll(/url\((https[^)]+)\)/g)]){const remote=match[1];const filename='font-'+i++ + (remote.includes('.woff2')?'.woff2':'.ttf');const res=await fetch(remote);fs.writeFileSync('public/fonts/'+filename,Buffer.from(await res.arrayBuffer()));css=css.replace(remote,'/fonts/'+filename)}fs.writeFileSync('public/fonts/fonts.css',css);console.log(i+' font files downloaded');
+for(const name of ['inter','spacegrotesk']){const r=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/'+name+'/OFL.txt');if(!r.ok)throw new Error(r.status);fs.writeFileSync('public/fonts/'+name+'-OFL.txt',await r.text())}
+

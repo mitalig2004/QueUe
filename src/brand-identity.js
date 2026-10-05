@@ -1,0 +1,13 @@
+/** Original QUEUE identity. All geometry is authored in the 64-unit grid. */
+export const concepts=[
+ {name:'01 / Negative space',idea:'A passage cut through a solid form; movement lives in the counter.',shape:'<path fill-rule="evenodd" d="M8 6h42v44H8ZM20 18v20h18V18ZM34 34h16v16H34Z"/><path d="M42 42h14v14H42Z"/>',scores:[4,3,4,5,3,4,4]},
+ {name:'02 / Sequential dots',idea:'Individual positions gather into one recognizable character.',shape:[...[ [20,9],[34,9],[46,17],[49,31],[40,43],[26,47],[12,39],[9,25] ].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="6"/>`),'<circle cx="49" cy="52" r="7"/>'].join(''),scores:[3,4,5,2,4,2,3]},
+ {name:'03 / Continuous path',idea:'One uninterrupted line moves through the system and out.',shape:'<path fill="none" stroke="currentColor" stroke-width="10" stroke-linejoin="round" d="M46 31V17H16v30h25l14 12"/>',scores:[4,4,4,4,3,4,4]},
+ {name:'04 / Modular shift',idea:'The form becomes a sequence: two positions step out of the Q.',shape:'<path d="M18 6h20c8 0 12 4 12 12v14H38V18H18v20h14v12H18C10 50 6 46 6 38V18C6 10 10 6 18 6Z"/><path d="M38 38h12v12H38ZM52 52h10v10H52Z"/>',scores:[5,5,5,5,4,5,5]},
+ {name:'05 / Progression',idea:'Three increasing weights resolve into the exit of a Q.',shape:'<path d="M8 8h10v34H8ZM22 8h12v10H22ZM22 32h12v10H22ZM38 8h14v34H38ZM44 44h14v14H44Z"/>',scores:[4,3,5,5,3,4,4]},
+ {name:'06 / Typographic cut',idea:'A compact type character with a deliberate diagonal release.',shape:'<path fill-rule="evenodd" d="M31 5C15 5 6 14 6 29s9 24 25 24 25-9 25-24S47 5 31 5Zm0 11c8 0 13 5 13 13s-5 13-13 13-13-5-13-13 5-13 13-13Z"/><path d="m32 32 26 20-8 10-26-21Z"/>',scores:[3,5,3,5,5,5,5]}
+];
+export const markPaths=concepts[3].shape;
+export const wordPaths=`${markPaths}<path d="M78 6h12v27c0 7 20 7 20 0V6h12v27c0 11-10 17-22 17S78 44 78 33ZM138 6h38v12h-26v5h23v10h-23v5h26v12h-38ZM190 6h12v27c0 7 20 7 20 0V6h12v27c0 11-10 17-22 17s-22-6-22-17ZM250 6h38v12h-26v5h23v10h-23v5h26v12h-38Z"/>`;
+export const LogoMark=({label='',className=''}={})=>`<svg class="brand-mark ${className}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" ${label?`role="img" aria-label="${label}"`:'aria-hidden="true"'}>${markPaths}</svg>`;
+export const Logo=({variant='wordmark',label='',className=''}={})=>variant==='mark'?LogoMark({label,className}):`<svg class="brand-logo ${className}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${variant==='primary'?380:292} 64" fill="currentColor" ${label?`role="img" aria-label="${label}"`:'aria-hidden="true"'}>${variant==='primary'?markPaths+'<g transform="translate(88)">'+wordPaths+'</g>':wordPaths}</svg>`;

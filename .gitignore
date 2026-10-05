@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.npm-cache/
+*.log
+.vercel/
+tests/*.png
+tests/*results.json
+.env
+.env.*
