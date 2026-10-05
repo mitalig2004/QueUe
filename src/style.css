@@ -216,3 +216,22 @@ input:not([type=checkbox]),select{font-size:16px;min-height:52px;padding:14px 16
 .compact-footer .creator-credit{flex-basis:100%;text-align:right;font-size:14px;padding-top:16px}
 .compact-footer .creator-credit strong{color:var(--ink);font-weight:700}
 @media(max-width:600px){.compact-footer .creator-credit{text-align:left;line-height:1.6;padding-top:12px}}
+/* Map has its own breathing room and separate details surface. */
+.map-page{gap:24px;border:0;background:transparent;overflow:visible}
+.map-page>.festival-map{border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.map-sheet{padding:28px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.map-tools{gap:10px;top:20px;right:20px}
+.pan-controls{gap:8px;right:20px;bottom:58px}
+.map-legend{padding:12px 16px;gap:12px}
+@media(max-width:600px){
+.map-mode .app-content{padding:24px 20px 120px!important}
+.map-page{height:auto!important;display:flex;flex-direction:column;gap:20px}
+.map-page>.festival-map{height:500px;min-height:500px}
+.map-page .map-world{width:calc(100% - 88px);left:20px;top:44%;transform:translate(var(--pan-x),calc(-50% + var(--pan-y))) scale(var(--zoom))}
+.map-page .map-north{top:22px;left:22px}
+.map-page .map-sheet{position:relative;inset:auto;max-height:260px;padding:24px;margin:0;border-radius:20px}
+.sheet-expanded .map-sheet{max-height:none;height:auto}
+.map-page .pan-controls{left:20px;right:auto;bottom:72px;gap:8px}
+.map-page .map-tools{right:16px;top:20px;gap:12px}
+.map-page .map-legend{bottom:0;flex-wrap:wrap;padding:14px 18px;line-height:1.4;background:#f5f6fa}
+}
