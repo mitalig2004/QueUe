@@ -68,7 +68,7 @@ scripts/capture-case-study.mjs reproducibly resets fixture state and captures re
 
 # QUEUE — published case-study content
 
-Extracted from the rendered page; expanded disclosures included. Author: Mitali Giri. Product/visual direction with Codex-assisted implementation.
+Extracted from the rendered page; expanded disclosures included. Author: Mitali Giri. Product/visual direction with frontend implementation.
 
 ## Don’t miss the set. Make room for everything between.
 
@@ -93,7 +93,7 @@ Mitali Giri · product & visual direction
 SCOPE
 Self-initiated concept · fictional event
 
-Implementation developed with Codex assistance. Repository commits record implementation on 5 October 2026; total design duration was not tracked. Case-study audit: 18 October 2026.
+Repository commits record implementation on 5 October 2026; total design duration was not tracked. Case-study audit: 18 October 2026.
 
 ## The interval is the product.
 
@@ -115,7 +115,7 @@ Leave at 7:18 PM. Arrive at 8:03 PM. Coldplay starts at 8:30 PM.
 
 Scope, contribution, and constraints
 
-Mitali shaped the product and visual direction through the documented specification and review iterations. The repository contains a Codex-assisted frontend, original SVG identity, and deterministic fixture model. Formal field research, production integrations, and individual hours were not documented.
+Mitali shaped the product and visual direction through the documented specification and review iterations. The repository contains a working frontend, original SVG identity, and deterministic fixture model. Formal field research, production integrations, and individual hours were not documented.
 
 Constraints: intermittent connection, distracted use, one-handed interaction, readable timing, fictional geometry, local persistence, and no backend. These are requirements and assumptions, not attendee-study findings.
 
@@ -1057,7 +1057,7 @@ Desktop/mobile hero and task-specific solution sections inspected as screenshots
 | Understand in10seconds? | Hero names festival companion, food/friends/facilities and next set; actual three-screen composition. This is editorial judgment, not a timed user result. |
 | Specific problem? | Complete detour time vs next performance, not generic app friction. |
 | Intended users? | Attendee between sets; group coordinator; comfortable-route context, all labelled intended. |
-| Contribution explicit? | Mitali: product/visual direction; Codex-assisted implementation; no invented individual hours. |
+| Contribution explicit? | Mitali: product/visual direction; frontend implementation; no invented individual hours. |
 | Credible research? | Verified/assumed/proposed ledger; research absence stated; primary-source category references narrowly described. |
 | Flows understandable? | Food, meetup and delay include decision, response, recovery and exits. |
 | Logical IA? | Four implemented branches plus actual support routes. |

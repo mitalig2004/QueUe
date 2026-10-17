@@ -1,0 +1,19 @@
+QUEUE — silent prototype walkthrough
+
+Today: Coldplay is the next Must See. 72 minutes remain; leave by 8:18 PM.
+
+Choose a practical detour while keeping the next set in view.
+
+Compare food using complete activity time, not the queue alone.
+
+Slice Club: 45 minutes total. Arrive at 8:03 PM with 27 minutes breathing room.
+
+The timeline includes walking, waiting, preparation, eating and the stage walk.
+
+Follow the named route; zoom and pan controls remain available.
+
+A simulated delay moves Coldplay to 8:50 PM and leave time to 8:38 PM.
+
+Arrival stays 8:03 PM. The new start leaves 47 minutes of breathing room.
+
+Fictional festival and deterministic demo values. No real event feed or location service.
