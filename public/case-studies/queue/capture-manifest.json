@@ -1,0 +1,177 @@
+[
+  {
+    "name": "today-desktop.jpg",
+    "path": "/today",
+    "width": 1440,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "today-mobile.jpg",
+    "path": "/today",
+    "width": 390,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "live-mobile.jpg",
+    "path": "/live",
+    "width": 390,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "food-mobile.jpg",
+    "path": "/food",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "decision-desktop.jpg",
+    "path": "/food/slice-club?target=coldplay",
+    "width": 1440,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "decision-mobile.jpg",
+    "path": "/food/slice-club?target=coldplay",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "schedule-desktop.jpg",
+    "path": "/schedule",
+    "width": 1440,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "schedule-mobile.jpg",
+    "path": "/schedule",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "map-mobile.jpg",
+    "path": "/map",
+    "width": 390,
+    "height": 1100,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "route-desktop.jpg",
+    "path": "/route?from=slice-club&to=main-stage",
+    "width": 1440,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "friends-mobile.jpg",
+    "path": "/friends",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "group-mobile.jpg",
+    "path": "/friends/group",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "pass-mobile.jpg",
+    "path": "/pass",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "signup-mobile.jpg",
+    "path": "/signup",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "delayed-mobile.jpg",
+    "path": "/today",
+    "width": 390,
+    "height": 1000,
+    "state": "COLDPLAY_DELAYED"
+  },
+  {
+    "name": "stale-mobile.jpg",
+    "path": "/food/slice-club?target=coldplay",
+    "width": 390,
+    "height": 1000,
+    "state": "PATCHY_CONNECTION"
+  },
+  {
+    "name": "unknown-mobile.jpg",
+    "path": "/food/slice-club?target=coldplay",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "empty-mobile.jpg",
+    "path": "/today",
+    "width": 390,
+    "height": 1000,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-320.jpg",
+    "path": "/today",
+    "width": 320,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-375.jpg",
+    "path": "/today",
+    "width": 375,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-390.jpg",
+    "path": "/today",
+    "width": 390,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-430.jpg",
+    "path": "/today",
+    "width": 430,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-768.jpg",
+    "path": "/today",
+    "width": 768,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-1024.jpg",
+    "path": "/today",
+    "width": 1024,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  },
+  {
+    "name": "responsive-1440.jpg",
+    "path": "/today",
+    "width": 1440,
+    "height": 900,
+    "state": "NORMAL_LIVE"
+  }
+]

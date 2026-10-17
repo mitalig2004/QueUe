@@ -104,3 +104,7 @@ User-requested padding/accessibility pass adds 24px side gutters, more space bet
 
 ## Original QUEUE identity system
 Six materially different Q concepts are documented and evaluated at /brand. Modular Shift was selected for its sequence-based tail and small-size clarity. Clean reusable Logo/LogoMark functions provide standalone mark, custom vector wordmark and primary lockup. Public vector downloads include app icon, favicon, monochrome and light/dark variants. Presentation uses Ink/Paper/Turn brand colors; product fixture values and stage colors retain their existing roles. No logo animation added.
+
+## Product-design publication
+
+`/work/queue` is the editorial product case study; `/work` indexes the product and existing `/brand` identity study. The source, fixture logic, route names, known limitations and actual screenshots were audited before writing the narrative. Nine `docs/QUEUE_*.md` files, machine-readable test manifests and a downloadable evidence bundle support the publication. Screenshot capture and browser tests are reproducible. The new presentation retains the product identity and does not alter shared product state or behavior.

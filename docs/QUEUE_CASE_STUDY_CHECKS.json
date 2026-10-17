@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-17T21:16:01.846Z",
+  "widths": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 375,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Keyboard skip link reaches main",
+    "Chapter anchors retain the case-study route",
+    "Native disclosure opens by keyboard",
+    "All referenced screenshot assets return 200 and decode",
+    "Internal routes return 200; evidence download contains the real audit",
+    "Reduced motion: hero has no animation",
+    "All-work index reaches product study",
+    "Next case study opens real brand study"
+  ],
+  "errors": []
+}
