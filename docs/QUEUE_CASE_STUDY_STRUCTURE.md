@@ -39,3 +39,7 @@ Hero: actual three-screen composition, product promise, owner/role/scope/platfor
 ## Scanning strategy
 
 Chapter navigation, short section leads and large authentic visuals support a 3–5-minute overview. Detailed research, comparisons, decisions and seven-width captures use native disclosure. Reading time is a design target, not a measured session result. No fictional second project or contact link is introduced.
+
+## Current presentation hierarchy
+
+The visual-first18-chapter edition is at `/work/queue`. The original19-section evidence-led article remains at `/work/queue/evidence`. Visual source: src/visual-case-study.js and its scoped stylesheet. Authentic before/after map and exact component captures support the new scenes. Export-ready panels and their manifest are in exports/queue-behance; deeper content and claims remain documented rather than fabricated.

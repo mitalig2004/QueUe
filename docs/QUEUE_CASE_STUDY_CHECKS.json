@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T21:16:01.846Z",
+  "checkedAt": "2026-10-17T21:38:36.173Z",
   "widths": [
     {
       "width": 320,
@@ -47,7 +47,7 @@
     "All referenced screenshot assets return 200 and decode",
     "Internal routes return 200; evidence download contains the real audit",
     "Reduced motion: hero has no animation",
-    "All-work index reaches product study",
+    "All-work index reaches visual product study",
     "Next case study opens real brand study"
   ],
   "errors": []

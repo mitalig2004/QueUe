@@ -8,3 +8,4 @@ tests/*results.json
 .env
 .env.*
 .vercel
+exports/*.zip

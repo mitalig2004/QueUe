@@ -1,0 +1,49 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1400,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 375,
+      "violations": []
+    },
+    {
+      "width": 1400,
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Delay demonstration changes start/buffer, keeps arrival; aria-pressed updates",
+    "Keyboard skip navigation",
+    "Detailed evidence remains a working separate route",
+    "All source images and close-ups available"
+  ],
+  "errors": []
+}

@@ -13,3 +13,7 @@ Read [IMPLEMENTATION.md](IMPLEMENTATION.md) for routes, architecture, behavior, 
 The responsive product-design case study is at `/work/queue`; `/work` is its selected-work index. It is isolated from product layouts in `src/case-study.js` and `src/case-study.css`. The audit and eight supporting case-study documents are in `docs/QUEUE_*.md`.
 
 Run `node scripts/capture-case-study.mjs` against a running dev server (default5199, or set `QUEUE_URL`) to reproduce authentic product screenshots. Run `node tests/case-study.mjs` (default5201, or set `QUEUE_URL`) for case-study layout, accessibility, keyboard, asset and navigation checks. Browsers use the installed Edge channel. Case-study images are real, unretouched JPEG captures under `public/case-studies/queue/`; annotations are separate HTML. Research plans are explicitly proposed; no participant results or business impact are claimed.
+
+## Visual-first edition
+
+`/work/queue` is now an18-chapter visual presentation. The detailed research/IA/validation edition remains at `/work/queue/evidence`. See `docs/QUEUE_VISUAL_DIRECTION.md` and `docs/QUEUE_VISUAL_STUDY_CHECKS.json`. `node scripts/export-queue-behance.mjs` creates the1400px-wide PNG panels in `exports/queue-behance/`; `node scripts/review-visual-exports.mjs` creates their contact sheet. `node tests/visual-case-study.mjs` checks the visual route; the earlier case-study test now targets the detailed evidence route.
