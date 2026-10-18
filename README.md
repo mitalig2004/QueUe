@@ -16,11 +16,11 @@ Run `node scripts/capture-case-study.mjs` against a running dev server (default5
 
 ## Visual-first edition
 
-The earlier 18-chapter visual edition and rendered videos remain archived in exports/queue-behance/. The current native illustrated edition uses24 chapters in exports/queue-illustrated/. Detailed product evidence remains at /work/queue/evidence.
+The earlier 18-chapter visual edition and rendered videos remain archived in exports/queue-behance/. The current native illustrated edition uses25 chapters in exports/queue-illustrated/. Detailed product evidence remains at /work/queue/evidence.
 
 ## Illustrated QUEUE exhibition
 
-The current /work/queue presentation uses24 illustrated spreads and native GSAP ScrollTrigger storytelling. No video players are embedded. Functional application screens and fixture data remain unchanged.
+The current /work/queue presentation uses25 illustrated spreads and native GSAP ScrollTrigger storytelling. No video players are embedded. Functional application screens and fixture data remain unchanged.
 
 - `node scripts/create-queue-art.mjs`: regenerate33 original reusable SVG assets.
 - `node tests/queue-exhibition.mjs`: responsive, accessibility, XML asset and reversible animation checks.

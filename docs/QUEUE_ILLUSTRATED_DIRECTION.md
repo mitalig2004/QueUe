@@ -6,7 +6,7 @@ This presentation extends the existing modular-shift identity into an original i
 
 Twelve original SVG environments cover the space between sets, hidden minutes, walking, queuing, preparation, eating, returning, breathing room, shared places, navigation, access and celebration. Plum contours, modular silhouettes, cream faces, headphones, passes and controlled flat color unite them. Scenes are editorial metaphors; the illustrated paths are not the operational map or surveyed route geometry.
 
-The ten identity spreads present logo lockups, symbols, palette, typography, illustration rules, character exploration/development, existing iconography, patterns, motion and proposed digital applications. Original logo geometry is preserved. The case study uses 24 distinct spreads; it contains no MP4 players, play buttons or download links.
+The ten identity spreads present logo lockups, symbols, palette, typography, illustration rules, character exploration/development, existing iconography, patterns, motion and proposed digital applications. Original logo geometry is preserved. The case study uses 25 distinct spreads; it contains no MP4 players, play buttons or download links.
 
 ## Character exploration
 
@@ -32,10 +32,14 @@ Other compositions use alternating product-screen reveals, layered illustration 
 
 - `src/queue-art.js`: reusable SVG artwork primitives and12 compositions.
 - `scripts/create-queue-art.mjs`: writes33 valid standalone SVG assets.
-- `src/visual-case-study.js`:24 editorial spreads, authentic screenshots and a bounded delay-state comparison.
+- `src/visual-case-study.js`:25 editorial spreads, authentic screenshots and a bounded delay-state comparison.
 - `src/queue-exhibition.css`: scoped responsive layout and reduced-motion adaptation.
 - `src/queue-scroll.js`: GSAP lifecycle and reversible choreography.
 - `tests/queue-exhibition.mjs`: nine widths, selected axe rules, XML parsing, keyboard entry, reverse scrubbing, resize and product-route continuity.
 - `scripts/export-queue-exhibition.mjs`: still presentation, gallery, contact sheet and reusable SVG pack.
 
 The supplied Behance reference returned403; no claim is made to have reviewed its artwork. No reference assets are copied. Automated accessibility checks do not establish WCAG certification or usability success. No interviews, participant results, analytics or real-world launch evidence is invented. Brand applications are labelled proposed.
+
+## Reflection chapter
+
+A new reflection before the final showcase pairs three design-process lessons with intended benefits: complete timing reduces mental calculation; explicit uncertainty and opt-in sharing support informed choices; hierarchy, spacing and access alternatives make the next action clearer. These are authored design reflections, not invented user-study results. Attendee validation remains the next step.
