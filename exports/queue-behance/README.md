@@ -6,4 +6,6 @@ Original screenshot pixels are preserved. Before map is re-rendered from actual 
 
 Reference access: supplied Behance pages returned403; indexed QLess previews were available for limited reference discovery. No reference image, layout, text, or brand asset is copied into the deliverables.
 
-Video addition: video-window.png previews the new player. motion/ includes the actual silent prototype recording, synchronized scene-caption VTT and text transcript. Website playback is user-controlled, with no autoplay. Presentation credits show Product & visual direction.
+## Motion films
+
+Six numbered H.264 MP4 masters, 1920×1080 at30fps, are in motion/. Each has a poster, English VTT descriptions and a review contact sheet. The gallery places films between the relevant chapters. Upload panel04 → film02; panel06 → film01; panel09 → film03; panel10 → film04; panel12 → film05; panel17 → film06. motion/manifest.json lists actual durations and sizes. Website copies are optimized1280×720 with manual controls and no autoplay. The older unnumbered walkthrough is archived source and is not part of this six-film presentation.

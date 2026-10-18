@@ -1,0 +1,85 @@
+[
+  {
+    "file": "04-user-journey",
+    "title": "From priority to food to route",
+    "duration": 13.47,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "H.264",
+    "source": "Actual Playwright interaction recording",
+    "masterBytes": 610936,
+    "webBytes": 194197,
+    "cues": [
+      {
+        "start": 1.753,
+        "end": 3.567,
+        "text": "Start with the next Must See: Coldplay at 8:30 PM."
+      },
+      {
+        "start": 3.859,
+        "end": 5.362,
+        "text": "Open the planner without losing the target performance."
+      },
+      {
+        "start": 5.563,
+        "end": 7.072,
+        "text": "Compare complete food timing, including the stage walk."
+      },
+      {
+        "start": 7.342,
+        "end": 10.35,
+        "text": "Slice Club: 45 minutes total. Arrival 8:03 PM. Breathing room 27 minutes."
+      },
+      {
+        "start": 10.462,
+        "end": 12.478,
+        "text": "Continue to the actual route; arrival is not automatically confirmed."
+      }
+    ]
+  },
+  {
+    "file": "05-microinteractions",
+    "title": "Selections with visible consequences",
+    "duration": 8.333333,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "H.264",
+    "source": "Actual Playwright interaction recording",
+    "masterBytes": 457141,
+    "webBytes": 129154,
+    "cues": [
+      {
+        "start": 0,
+        "end": 0.6720000000000002,
+        "text": "A saved priority is explicit and reversible."
+      },
+      {
+        "start": 0.827,
+        "end": 1.8310000000000002,
+        "text": "Remove Must See while keeping the performance saved."
+      },
+      {
+        "start": 1.8659999999999999,
+        "end": 2.8760000000000003,
+        "text": "Restore the priority with visible confirmation."
+      },
+      {
+        "start": 3.1929999999999996,
+        "end": 4.396,
+        "text": "Less crowded selects the 10-minute route and its landmarks."
+      },
+      {
+        "start": 4.4399999999999995,
+        "end": 5.645,
+        "text": "Step-free selects the 11-minute route; geometry changes with timing."
+      },
+      {
+        "start": 5.68,
+        "end": 7.191,
+        "text": "Save route confirms it is stored on this device."
+      }
+    ]
+  }
+]

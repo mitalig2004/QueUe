@@ -1,0 +1,145 @@
+{
+  "master": "1920×1080 H.264, 30fps, silent",
+  "web": "1280×720 H.264, faststart, preload none",
+  "films": [
+    {
+      "id": "logo",
+      "file": "01-logo-reveal",
+      "duration": 5,
+      "title": "A queue becomes a Q",
+      "summary": "Sequential modules move into the Q tail, followed by the custom wordmark.",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "pixelFormat": "yuv420p",
+      "masterBytes": 59841,
+      "webBytes": 29387
+    },
+    {
+      "id": "problem",
+      "file": "02-problem-story",
+      "duration": 8,
+      "title": "The minutes around the queue",
+      "summary": "A four-minute queue becomes a complete45-minute detour and27-minute breathing room.",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "pixelFormat": "yuv420p",
+      "masterBytes": 177023,
+      "webBytes": 90759
+    },
+    {
+      "id": "introduction",
+      "file": "03-product-introduction",
+      "duration": 8,
+      "title": "One plan, two ways to see it",
+      "summary": "Actual Today and Live Mode screens enter through a controlled layered composition.",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "pixelFormat": "yuv420p",
+      "masterBytes": 714686,
+      "webBytes": 216999
+    },
+    {
+      "file": "04-user-journey",
+      "title": "From priority to food to route",
+      "duration": 13.47,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "source": "Actual Playwright interaction recording",
+      "masterBytes": 610936,
+      "webBytes": 194197,
+      "cues": [
+        {
+          "start": 1.753,
+          "end": 3.567,
+          "text": "Start with the next Must See: Coldplay at 8:30 PM."
+        },
+        {
+          "start": 3.859,
+          "end": 5.362,
+          "text": "Open the planner without losing the target performance."
+        },
+        {
+          "start": 5.563,
+          "end": 7.072,
+          "text": "Compare complete food timing, including the stage walk."
+        },
+        {
+          "start": 7.342,
+          "end": 10.35,
+          "text": "Slice Club: 45 minutes total. Arrival 8:03 PM. Breathing room 27 minutes."
+        },
+        {
+          "start": 10.462,
+          "end": 12.478,
+          "text": "Continue to the actual route; arrival is not automatically confirmed."
+        }
+      ]
+    },
+    {
+      "file": "05-microinteractions",
+      "title": "Selections with visible consequences",
+      "duration": 8.333333,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "source": "Actual Playwright interaction recording",
+      "masterBytes": 457141,
+      "webBytes": 129154,
+      "cues": [
+        {
+          "start": 0,
+          "end": 0.6720000000000002,
+          "text": "A saved priority is explicit and reversible."
+        },
+        {
+          "start": 0.827,
+          "end": 1.8310000000000002,
+          "text": "Remove Must See while keeping the performance saved."
+        },
+        {
+          "start": 1.8659999999999999,
+          "end": 2.8760000000000003,
+          "text": "Restore the priority with visible confirmation."
+        },
+        {
+          "start": 3.1929999999999996,
+          "end": 4.396,
+          "text": "Less crowded selects the 10-minute route and its landmarks."
+        },
+        {
+          "start": 4.4399999999999995,
+          "end": 5.645,
+          "text": "Step-free selects the 11-minute route; geometry changes with timing."
+        },
+        {
+          "start": 5.68,
+          "end": 7.191,
+          "text": "Save route confirms it is stored on this device."
+        }
+      ]
+    },
+    {
+      "id": "finale",
+      "file": "06-final-showcase",
+      "duration": 10,
+      "title": "Make room for the moment",
+      "summary": "Original QUEUE identity and actual product screens resolve into the product promise.",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "H.264",
+      "pixelFormat": "yuv420p",
+      "masterBytes": 1294166,
+      "webBytes": 355481
+    }
+  ]
+}

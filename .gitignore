@@ -10,3 +10,4 @@ tests/*results.json
 .vercel
 exports/*.zip
 exports/queue-video-source/
+exports/queue-motion-source/

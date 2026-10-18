@@ -1,0 +1,62 @@
+[
+  {
+    "file": "02-problem-story.mp4",
+    "duration": 8,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  },
+  {
+    "file": "01-logo-reveal.mp4",
+    "duration": 5,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  },
+  {
+    "file": "03-product-introduction.mp4",
+    "duration": 8,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  },
+  {
+    "file": "04-user-journey.mp4",
+    "duration": 13.466667,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  },
+  {
+    "file": "05-microinteractions.mp4",
+    "duration": 8.333333,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  },
+  {
+    "file": "06-final-showcase.mp4",
+    "duration": 10,
+    "width": 1280,
+    "height": 720,
+    "autoplay": false,
+    "controls": true,
+    "masterFullDecode": "pass",
+    "browserPlayback": "pass"
+  }
+]
