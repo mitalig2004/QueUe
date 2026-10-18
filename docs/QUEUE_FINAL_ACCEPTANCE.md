@@ -50,3 +50,9 @@ These sources establish expected category functions. They do not establish missi
 `exports/queue-behance/` is the current33-chapter static gallery, with1600px PNGs, cover, contact sheet, reusable SVGs, source notes and a manifest. Earlier video-era exports are preserved separately. The static journey displays all five scenes; the schematic and final UI remain understandable without motion.
 
 Final hiring-manager review: product, audience, role and evidence are visible before the identity chapter; each structural decision has a real UI or route reference; iteration claims have traceable artifacts; commercial and behavioral outcomes remain explicitly unmeasured.
+
+## Overall spacing review
+
+The cover, problem illustration, timing result, product reveal, feature compositions, desktop showcase and closing scene now reserve independent layout space for text, artwork and product screens. Mobile screens stack vertically. Repeated tilted applications and palette tiles are straightened where they crowded neighboring content. Scroll movement is limited to8px in these layouts and phone rotation is removed.
+
+`tests/queue-spacing.mjs` checks element intersections with motion enabled at320,375,390,768,1024,1440 and1920px; results are recorded in QUEUE_SPACING_CHECKS.json. Full-page chapter captures support visual review. Phone images use their natural aspect ratio so the original900px screenshot is not cropped to844px.

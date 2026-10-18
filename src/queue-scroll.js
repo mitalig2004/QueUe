@@ -27,8 +27,8 @@ export function initExhibition(root){
     study.querySelectorAll('.qx-journey-scene').forEach(scene=>{gsap.fromTo(scene.querySelector('.qa-character'),{x:-24},{x:24,ease:'none',scrollTrigger:{trigger:scene,start:'top 90%',end:'bottom 20%',scrub:true}})});
    }
    // Broad compositions move in opposing layers; no essential information is hidden.
-   study.querySelectorAll('.qx-cover-art,.qx-problem-art,.qx-feature-art,.qx-access-art').forEach(el=>gsap.fromTo(el,{y:24},{y:-24,ease:'none',scrollTrigger:{trigger:el.closest('.qx-spread'),start:'top bottom',end:'bottom top',scrub:true}}));
-   study.querySelectorAll('.qx-phone').forEach((el,i)=>gsap.fromTo(el,{y:desktop?60:25,rotation:i%2?-5:5},{y:desktop?-25:-10,rotation:i%2?3:-3,ease:'none',scrollTrigger:{trigger:el.closest('.qx-spread'),start:'top 85%',end:'bottom 15%',scrub:.5}}));
+   study.querySelectorAll('.qx-cover-art,.qx-problem-art,.qx-feature-art,.qx-access-art').forEach(el=>gsap.fromTo(el,{y:8},{y:-8,ease:'none',scrollTrigger:{trigger:el.closest('.qx-spread'),start:'top bottom',end:'bottom top',scrub:true}}));
+   study.querySelectorAll('.qx-phone').forEach((el,i)=>gsap.fromTo(el,{y:8,rotation:0},{y:-8,rotation:0,ease:'none',scrollTrigger:{trigger:el.closest('.qx-spread'),start:'top 85%',end:'bottom 15%',scrub:.5}}));
    study.querySelectorAll('.qx-spread h2 em').forEach(el=>gsap.fromTo(el,{letterSpacing:'-.025em'},{letterSpacing:'-.065em',ease:'none',scrollTrigger:{trigger:el.closest('.qx-spread'),start:'top 85%',end:'top 15%',scrub:true}}));
    const path=study.querySelector('.qx-drawn-path'),len=path.getTotalLength();gsap.fromTo(path,{strokeDasharray:len,strokeDashoffset:len},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'#motion-language',start:'top 70%',end:'bottom 70%',scrub:true}});
    gsap.to('.qx-score-module',{x:760,ease:'none',scrollTrigger:{trigger:'#motion-language',start:'top 70%',end:'bottom 70%',scrub:true}});
@@ -43,7 +43,7 @@ export function initExhibition(root){
    study.querySelectorAll('.qx-ia-connectors path').forEach(p=>{const l=p.getTotalLength();gsap.fromTo(p,{strokeDasharray:l,strokeDashoffset:l},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'#flow-and-architecture',start:'top 75%',end:'35% 50%',scrub:true}})});
    gsap.fromTo('.qx-ia-node',{y:18},{y:-8,stagger:.12,ease:'none',scrollTrigger:{trigger:'.qx-ia-map',start:'top 80%',end:'bottom 30%',scrub:true}});
    gsap.to('.qx-evolution-draft',{clipPath:'inset(0 0 100% 0)',ease:'none',scrollTrigger:{trigger:'#ideation-to-interface',start:'top 60%',end:'bottom 65%',scrub:true}});
-   gsap.fromTo('.qx-iteration-pair>figure:last-child',{y:60},{y:0,ease:'none',scrollTrigger:{trigger:'#iteration-and-validation',start:'top 75%',end:'55% 60%',scrub:true}});
+   gsap.fromTo('.qx-iteration-pair>figure:last-child',{y:8},{y:0,ease:'none',scrollTrigger:{trigger:'#iteration-and-validation',start:'top 75%',end:'55% 60%',scrub:true}});
    study.querySelectorAll('.qa-route-dash').forEach(p=>gsap.fromTo(p,{strokeDashoffset:60},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:p.closest('.qx-spread'),start:'top bottom',end:'bottom top',scrub:true}}));
   },study);
   return ()=>context?.revert();
