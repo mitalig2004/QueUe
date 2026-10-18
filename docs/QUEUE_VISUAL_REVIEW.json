@@ -1,0 +1,20 @@
+{
+  "widths": [
+    320,
+    375,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "chapters": 33,
+  "captures": 231,
+  "method": "Actual section screenshots, complete contact sheets for all required widths",
+  "checks": [
+    "IA connectors avoid labels",
+    "Mobile art remains within its composition",
+    "Focus-only skip link hidden in static captures",
+    "All final content readable without animation"
+  ]
+}

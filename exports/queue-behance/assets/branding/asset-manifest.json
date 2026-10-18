@@ -1,0 +1,47 @@
+{
+  "illustrations": [
+    "illustrations/01-between-sets.svg",
+    "illustrations/02-hidden-minutes.svg",
+    "illustrations/03-walking.svg",
+    "illustrations/04-queue.svg",
+    "illustrations/05-preparing.svg",
+    "illustrations/06-eating.svg",
+    "illustrations/07-returning.svg",
+    "illustrations/08-breathing-room.svg",
+    "illustrations/09-shared-place.svg",
+    "illustrations/10-find-your-way.svg",
+    "illustrations/11-room-for-everyone.svg",
+    "illustrations/12-the-whole-night.svg",
+    "illustrations/13-decision-signals.svg",
+    "illustrations/14-one-shared-plan.svg",
+    "illustrations/15-quiet-route.svg"
+  ],
+  "character": "Interval: presentation extension, not an app assistant",
+  "poses": [
+    "neutral",
+    "happy",
+    "thinking",
+    "waiting",
+    "walk",
+    "success",
+    "return",
+    "dance"
+  ],
+  "concepts": [
+    "Interval",
+    "Loop",
+    "Encore"
+  ],
+  "lockups": [
+    "primary",
+    "secondary",
+    "symbol"
+  ],
+  "patterns": [
+    "sequence",
+    "paths"
+  ],
+  "applications": "Proposed digital poster, social editorial, launch graphic, empty state, venue signage, food-stall branding and onboarding artwork",
+  "wireframes": "New explanatory compact and explainable-result schematics; not historical artifacts",
+  "animationSource": "src/queue-scroll.js uses GSAP ScrollTrigger; SVGs are static reusable masters"
+}

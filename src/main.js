@@ -1,6 +1,7 @@
 import {queueCaseStudy as queueEvidence,workIndex} from './case-study.js';
 import {visualCaseStudy as queueCaseStudy,initExhibition} from './visual-case-study.js';
 import './queue-exhibition.css';
+import './queue-ux-story.css';
 import './case-study.css';
 import {brandPage} from './brand-page.js';
 import {calendarPanel,makeInvite,inviteURL,joinInvite,parseInvite} from './social-calendar.js';

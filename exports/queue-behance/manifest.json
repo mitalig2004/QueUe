@@ -1,120 +1,207 @@
 {
-  "width": 1400,
   "format": "PNG",
-  "sourceRoute": "/work/queue",
+  "width": 1600,
+  "source": "/work/queue",
   "chapters": [
     {
       "file": "01-cover.png",
-      "width": 1400,
-      "height": 1080,
-      "chapter": "Make room\nfor the moment."
+      "width": 1600,
+      "height": 1200,
+      "title": "Make room\nfor the moment."
     },
     {
-      "file": "02-brand-introduction.png",
-      "width": 1400,
-      "height": 940,
-      "chapter": "Less figuring\nit out.\nMore being there."
+      "file": "02-project-overview.png",
+      "width": 1600,
+      "height": 833,
+      "title": "A night out.\nA connected plan."
     },
     {
-      "file": "03-the-product.png",
-      "width": 1400,
-      "height": 980,
-      "chapter": "Your night.\nConnected."
+      "file": "03-everyday-problem.png",
+      "width": 1600,
+      "height": 1077,
+      "title": "“It’s only a\nfour-minute queue.”"
     },
     {
-      "file": "04-the-problem.png",
-      "width": 1400,
-      "height": 1040,
-      "chapter": "“It’s only a\nfour-minute queue.”"
+      "file": "04-the-45-minute-journey.png",
+      "width": 1600,
+      "height": 1387,
+      "title": "Four minutes waiting.\nForty-five minutes living."
     },
     {
-      "file": "05-the-big-idea.png",
-      "width": 1400,
-      "height": 998,
-      "chapter": "Not just a wait.\nA whole decision."
+      "file": "05-evidence-to-objectives.png",
+      "width": 1600,
+      "height": 1086,
+      "title": "Start with the\nright kind of confidence."
     },
     {
-      "file": "06-identity.png",
-      "width": 1400,
-      "height": 1131,
-      "chapter": "A queue.\nA sequence.\nYour turn."
+      "file": "06-alternative-approaches.png",
+      "width": 1600,
+      "height": 1319,
+      "title": "Planners already exist.\nThe opportunity is connection."
     },
     {
-      "file": "07-type-and-color.png",
-      "width": 1400,
-      "height": 1045,
-      "chapter": "Bold in feeling.\nClear in function."
+      "file": "07-the-big-idea.png",
+      "width": 1600,
+      "height": 1221,
+      "title": "Not just a wait.\nA whole decision."
     },
     {
-      "file": "08-drawn-for-the-night.png",
-      "width": 1400,
-      "height": 865,
-      "chapter": "A little character.\nA clear purpose."
+      "file": "08-flow-and-architecture.png",
+      "width": 1600,
+      "height": 2026,
+      "title": "Follow the decision.\nKeep the way back."
     },
     {
-      "file": "09-screen-reveal.png",
-      "width": 1400,
-      "height": 1100,
-      "chapter": "One next set.\nEverything in context."
+      "file": "09-ideation-to-interface.png",
+      "width": 1600,
+      "height": 1331,
+      "title": "Make the answer clear.\nKeep the reasoning close."
     },
     {
-      "file": "10-primary-journey.png",
-      "width": 1400,
-      "height": 1312,
-      "chapter": "A question.\nA consequence. A way there."
+      "file": "10-identity.png",
+      "width": 1600,
+      "height": 947,
+      "title": "A queue. A sequence.\nYour turn."
     },
     {
-      "file": "11-when-plans-change.png",
-      "width": 1400,
-      "height": 1120,
-      "chapter": "The set moves.\nYour plan keeps up."
+      "file": "11-brand-symbols.png",
+      "width": 1600,
+      "height": 784,
+      "title": "Little decisions.\nOne connected world."
     },
     {
-      "file": "12-component-closeups.png",
-      "width": 1400,
-      "height": 1388,
-      "chapter": "Designed down\nto the next action."
+      "file": "12-color.png",
+      "width": 1600,
+      "height": 931,
+      "title": "A little warmth.\nA lot of feeling."
     },
     {
-      "file": "13-your-people.png",
-      "width": 1400,
-      "height": 1120,
-      "chapter": "Your people.\nA shared place."
+      "file": "13-typography.png",
+      "width": 1600,
+      "height": 1028,
+      "title": "LOUD\nIN FEELING.\nClear in function."
     },
     {
-      "file": "14-room-to-plan.png",
-      "width": 1400,
-      "height": 1358,
-      "chapter": "More space.\nMore perspective."
+      "file": "14-illustration-language.png",
+      "width": 1600,
+      "height": 1008,
+      "title": "Round corners.\nUnexpected turns.\nVery human moments."
     },
     {
-      "file": "15-better-way-through.png",
-      "width": 1400,
-      "height": 1230,
-      "chapter": "Room to breathe.\nA way to scroll."
+      "file": "15-character-exploration.png",
+      "width": 1600,
+      "height": 1004,
+      "title": "Three ways\nto keep you company."
     },
     {
-      "file": "16-why-it-works.png",
-      "width": 1400,
-      "height": 850,
-      "chapter": "Show the answer.\nKeep the reasoning."
+      "file": "16-interval.png",
+      "width": 1600,
+      "height": 931,
+      "title": "A little person.\nA whole night ahead."
     },
     {
-      "file": "17-the-whole-night.png",
-      "width": 1400,
-      "height": 1180,
-      "chapter": "Find your rhythm.\nKeep your night."
+      "file": "17-iconography.png",
+      "width": 1600,
+      "height": 851,
+      "title": "Less guessing.\nMore getting there."
     },
     {
-      "file": "18-closing.png",
-      "width": 1400,
+      "file": "18-patterns.png",
+      "width": 1600,
+      "height": 829,
+      "title": "Not background noise.\nA recognizable rhythm."
+    },
+    {
+      "file": "19-motion-language.png",
+      "width": 1600,
+      "height": 993,
+      "title": "Follow the path.\nFind your rhythm."
+    },
+    {
+      "file": "20-brand-applications.png",
+      "width": 1600,
+      "height": 1112,
+      "title": "Same spirit.\nDifferent surfaces."
+    },
+    {
+      "file": "21-identity-in-the-venue.png",
+      "width": 1600,
+      "height": 1192,
+      "title": "A world beyond\nthe screen."
+    },
+    {
+      "file": "22-product-discovery.png",
+      "width": 1600,
+      "height": 1333,
+      "title": "Your night.\nConnected."
+    },
+    {
+      "file": "23-decisions-in-the-interface.png",
+      "width": 1600,
+      "height": 1284,
+      "title": "Every detail\nhas a job."
+    },
+    {
+      "file": "24-food-decisions.png",
+      "width": 1600,
+      "height": 1203,
+      "title": "A detour that\nadds up."
+    },
+    {
+      "file": "25-when-plans-change.png",
+      "width": 1600,
+      "height": 939,
+      "title": "The set moves.\nYour plan keeps up."
+    },
+    {
+      "file": "26-your-people.png",
+      "width": 1600,
+      "height": 1203,
+      "title": "Less “where are you?”\nMore “see you there.”"
+    },
+    {
+      "file": "27-a-better-way.png",
+      "width": 1600,
+      "height": 1203,
+      "title": "Different routes.\nThe same next moment."
+    },
+    {
+      "file": "28-room-for-everyone.png",
+      "width": 1600,
+      "height": 1064,
+      "title": "Room to breathe.\nMore ways through."
+    },
+    {
+      "file": "29-room-to-plan.png",
+      "width": 1600,
+      "height": 1588,
+      "title": "More space.\nMore perspective."
+    },
+    {
+      "file": "30-iteration-and-validation.png",
+      "width": 1600,
+      "height": 1678,
+      "title": "A map can look complete.\nIt still needs a way through."
+    },
+    {
+      "file": "31-reflection.png",
+      "width": 1600,
+      "height": 1216,
+      "title": "Design the decision.\nNot just the screen."
+    },
+    {
+      "file": "32-the-whole-night.png",
+      "width": 1600,
+      "height": 1488,
+      "title": "Find your rhythm.\nKeep your night."
+    },
+    {
+      "file": "33-closing.png",
+      "width": 1600,
       "height": 800,
-      "chapter": "Make the moment.\nNot the mental maths."
+      "title": "Make the moment.\nNot the mental maths."
     }
   ],
-  "thumbnail": {
-    "file": "thumbnail.png",
-    "width": 808,
-    "height": 632
-  }
+  "assets": "assets/ contains 41 reusable SVG masters",
+  "motion": "Native reversible GSAP ScrollTrigger; not reproduced in still PNGs"
 }

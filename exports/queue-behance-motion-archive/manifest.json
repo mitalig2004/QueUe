@@ -1,0 +1,120 @@
+{
+  "width": 1400,
+  "format": "PNG",
+  "sourceRoute": "/work/queue",
+  "chapters": [
+    {
+      "file": "01-cover.png",
+      "width": 1400,
+      "height": 1080,
+      "chapter": "Make room\nfor the moment."
+    },
+    {
+      "file": "02-brand-introduction.png",
+      "width": 1400,
+      "height": 940,
+      "chapter": "Less figuring\nit out.\nMore being there."
+    },
+    {
+      "file": "03-the-product.png",
+      "width": 1400,
+      "height": 980,
+      "chapter": "Your night.\nConnected."
+    },
+    {
+      "file": "04-the-problem.png",
+      "width": 1400,
+      "height": 1040,
+      "chapter": "“It’s only a\nfour-minute queue.”"
+    },
+    {
+      "file": "05-the-big-idea.png",
+      "width": 1400,
+      "height": 998,
+      "chapter": "Not just a wait.\nA whole decision."
+    },
+    {
+      "file": "06-identity.png",
+      "width": 1400,
+      "height": 1131,
+      "chapter": "A queue.\nA sequence.\nYour turn."
+    },
+    {
+      "file": "07-type-and-color.png",
+      "width": 1400,
+      "height": 1045,
+      "chapter": "Bold in feeling.\nClear in function."
+    },
+    {
+      "file": "08-drawn-for-the-night.png",
+      "width": 1400,
+      "height": 865,
+      "chapter": "A little character.\nA clear purpose."
+    },
+    {
+      "file": "09-screen-reveal.png",
+      "width": 1400,
+      "height": 1100,
+      "chapter": "One next set.\nEverything in context."
+    },
+    {
+      "file": "10-primary-journey.png",
+      "width": 1400,
+      "height": 1312,
+      "chapter": "A question.\nA consequence. A way there."
+    },
+    {
+      "file": "11-when-plans-change.png",
+      "width": 1400,
+      "height": 1120,
+      "chapter": "The set moves.\nYour plan keeps up."
+    },
+    {
+      "file": "12-component-closeups.png",
+      "width": 1400,
+      "height": 1388,
+      "chapter": "Designed down\nto the next action."
+    },
+    {
+      "file": "13-your-people.png",
+      "width": 1400,
+      "height": 1120,
+      "chapter": "Your people.\nA shared place."
+    },
+    {
+      "file": "14-room-to-plan.png",
+      "width": 1400,
+      "height": 1358,
+      "chapter": "More space.\nMore perspective."
+    },
+    {
+      "file": "15-better-way-through.png",
+      "width": 1400,
+      "height": 1230,
+      "chapter": "Room to breathe.\nA way to scroll."
+    },
+    {
+      "file": "16-why-it-works.png",
+      "width": 1400,
+      "height": 850,
+      "chapter": "Show the answer.\nKeep the reasoning."
+    },
+    {
+      "file": "17-the-whole-night.png",
+      "width": 1400,
+      "height": 1180,
+      "chapter": "Find your rhythm.\nKeep your night."
+    },
+    {
+      "file": "18-closing.png",
+      "width": 1400,
+      "height": 800,
+      "chapter": "Make the moment.\nNot the mental maths."
+    }
+  ],
+  "thumbnail": {
+    "file": "thumbnail.png",
+    "width": 808,
+    "height": 632
+  }
+}

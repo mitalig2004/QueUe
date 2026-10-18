@@ -11,7 +11,10 @@
     "illustrations/09-shared-place.svg",
     "illustrations/10-find-your-way.svg",
     "illustrations/11-room-for-everyone.svg",
-    "illustrations/12-the-whole-night.svg"
+    "illustrations/12-the-whole-night.svg",
+    "illustrations/13-decision-signals.svg",
+    "illustrations/14-one-shared-plan.svg",
+    "illustrations/15-quiet-route.svg"
   ],
   "character": "Interval: presentation extension, not an app assistant",
   "poses": [
@@ -38,6 +41,7 @@
     "sequence",
     "paths"
   ],
-  "applications": "Proposed digital poster, social editorial, launch graphic, empty state",
+  "applications": "Proposed digital poster, social editorial, launch graphic, empty state, venue signage, food-stall branding and onboarding artwork",
+  "wireframes": "New explanatory compact and explainable-result schematics; not historical artifacts",
   "animationSource": "src/queue-scroll.js uses GSAP ScrollTrigger; SVGs are static reusable masters"
 }

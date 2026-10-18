@@ -12,11 +12,14 @@ export function initExhibition(root){
    const desktop=conditions.conditions.desktop;
    const journey=study.querySelector('.qx-journey'),world=journey.querySelector('.qx-journey-world');
    if(desktop){
-    const tl=gsap.timeline({scrollTrigger:{id:'queue-journey',trigger:'.qx-journey-frame',start:'top 24px',end:()=>'+='+Math.max(2400,innerHeight*4),scrub:.45,pin:true,anticipatePin:1,invalidateOnRefresh:true}});
+    const readout=journey.querySelector('[data-journey-progress]');
+    const tl=gsap.timeline({scrollTrigger:{id:'queue-journey',trigger:'.qx-journey-frame',start:'top 24px',end:()=>'+='+Math.max(2400,innerHeight*4),scrub:.45,pin:true,anticipatePin:1,invalidateOnRefresh:true},onUpdate(){if(readout)readout.textContent=String(Math.round(this.progress()*45));}});
     let elapsed=0;[6,4,7,20,8].forEach((duration,i)=>{if(i<4)tl.to(world,{xPercent:-(i+1)*20,duration:duration*.3,ease:'power1.inOut'},elapsed+duration*.7);else tl.to(world,{xPercent:-80,duration,ease:'none'},elapsed);elapsed+=duration;});
     tl.fromTo('.qx-timing-progress',{scaleX:0},{scaleX:1,duration:45,ease:'none'},0);
     tl.to('.qx-journey-result',{backgroundColor:'#a9ead2',duration:5},40);
     tl.fromTo('.qx-journey .qa-steam',{opacity:.3,y:12},{opacity:1,y:-12,duration:7,ease:'sine.inOut'},10);
+    tl.fromTo('.qx-journey .qa-clock-hand',{rotation:-30},{rotation:120,transformOrigin:'0px 0px',duration:45,ease:'none'},0);
+    tl.fromTo('.qx-journey .qa-kiosk-canopy',{scaleY:.88,transformOrigin:'50% 100%'},{scaleY:1,duration:4,ease:'power1.out'},6);
     // Each environment occupies a full scene; the overview bar retains exact minute proportions.
     tl.fromTo('.qx-journey .qa-walk .qa-leg-a,.qx-journey .qa-return .qa-leg-a',{rotation:-10,svgOrigin:'100 208'},{rotation:10,duration:1.1,repeat:39,yoyo:true,ease:'sine.inOut'},0);
     tl.fromTo('.qx-journey .qa-walk .qa-leg-b,.qx-journey .qa-return .qa-leg-b',{rotation:10,svgOrigin:'100 208'},{rotation:-10,duration:1.1,repeat:39,yoyo:true,ease:'sine.inOut'},0);
@@ -36,6 +39,12 @@ export function initExhibition(root){
    study.querySelectorAll('.qx-pattern-window svg').forEach((el,i)=>gsap.fromTo(el,{xPercent:i?8:-8},{xPercent:i?-8:8,ease:'none',scrollTrigger:{trigger:'#patterns',start:'top bottom',end:'bottom top',scrub:true}}));
    gsap.fromTo('.qx-icon-field .icon',{rotation:-12},{rotation:12,stagger:.05,ease:'none',scrollTrigger:{trigger:'#iconography',start:'top 80%',end:'bottom 30%',scrub:true}});
    gsap.fromTo('.qx-celebration .qa-arm',{rotation:-9,transformOrigin:'50% 75%'},{rotation:12,stagger:.1,ease:'none',scrollTrigger:{trigger:'#the-whole-night',start:'top 70%',end:'bottom 40%',scrub:true}});
+   gsap.fromTo('.qx-cover-word .brand-logo',{clipPath:'inset(0 0 15% 0)'},{clipPath:'inset(0 0% 0 0)',ease:'none',scrollTrigger:{trigger:'#cover',start:'top top',end:'35% top',scrub:true}});
+   study.querySelectorAll('.qx-ia-connectors path').forEach(p=>{const l=p.getTotalLength();gsap.fromTo(p,{strokeDasharray:l,strokeDashoffset:l},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'#flow-and-architecture',start:'top 75%',end:'35% 50%',scrub:true}})});
+   gsap.fromTo('.qx-ia-node',{y:18},{y:-8,stagger:.12,ease:'none',scrollTrigger:{trigger:'.qx-ia-map',start:'top 80%',end:'bottom 30%',scrub:true}});
+   gsap.to('.qx-evolution-draft',{clipPath:'inset(0 0 100% 0)',ease:'none',scrollTrigger:{trigger:'#ideation-to-interface',start:'top 60%',end:'bottom 65%',scrub:true}});
+   gsap.fromTo('.qx-iteration-pair>figure:last-child',{y:60},{y:0,ease:'none',scrollTrigger:{trigger:'#iteration-and-validation',start:'top 75%',end:'55% 60%',scrub:true}});
+   study.querySelectorAll('.qa-route-dash').forEach(p=>gsap.fromTo(p,{strokeDashoffset:60},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:p.closest('.qx-spread'),start:'top bottom',end:'bottom top',scrub:true}}));
   },study);
   return ()=>context?.revert();
  });

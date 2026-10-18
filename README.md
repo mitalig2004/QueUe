@@ -27,3 +27,9 @@ The current /work/queue presentation uses25 illustrated spreads and native GSAP 
 - `node scripts/export-queue-exhibition.mjs`: export24 static1400px chapters and the reusable asset pack.
 
 Use QUEUE_URL to select the local preview. See docs/QUEUE_ILLUSTRATED_DIRECTION.md for the visual language, character evaluation and scope boundaries. Previous motion MP4s remain archived deliverables; the current website tells the story through native scroll motion.
+
+## Final Behance-ready case study
+
+The current /work/queue exhibition has33 chapters integrating the full UX story with the original visual identity. It includes explicit evidence boundaries, source-based competitive context, IA and real task flows, explanatory wireframes, authentic components and a Git-backed map iteration. See docs/QUEUE_FINAL_ACCEPTANCE.md for all15 requirements and source notes.
+
+Run `node scripts/export-queue-exhibition.mjs` to create the current1600px PNG presentation and41 SVG masters in exports/queue-behance/. `node scripts/review-queue-breakpoints.mjs` captures every chapter at the seven requested widths. Earlier motion assets are preserved in exports/queue-behance-motion-archive/ and the earlier illustrated edition remains in exports/queue-illustrated/.

@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "Exhibition progress reaches45 and reverses; frozen final timing remains visible",
+    "Explanatory wireframe-to-actual-interface reveal reverses",
+    "Client-side navigation cleans up exhibition and pinning"
+  ],
+  "errors": []
+}
