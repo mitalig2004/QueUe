@@ -39,7 +39,7 @@ export function initExhibition(root){
    study.querySelectorAll('.qx-pattern-window svg').forEach((el,i)=>gsap.fromTo(el,{xPercent:i?8:-8},{xPercent:i?-8:8,ease:'none',scrollTrigger:{trigger:'#patterns',start:'top bottom',end:'bottom top',scrub:true}}));
    gsap.fromTo('.qx-icon-field .icon',{rotation:-12},{rotation:12,stagger:.05,ease:'none',scrollTrigger:{trigger:'#iconography',start:'top 80%',end:'bottom 30%',scrub:true}});
    gsap.fromTo('.qx-celebration .qa-arm',{rotation:-9,transformOrigin:'50% 75%'},{rotation:12,stagger:.1,ease:'none',scrollTrigger:{trigger:'#the-whole-night',start:'top 70%',end:'bottom 40%',scrub:true}});
-   gsap.fromTo('.qx-cover-word .brand-logo',{clipPath:'inset(0 0 15% 0)'},{clipPath:'inset(0 0% 0 0)',ease:'none',scrollTrigger:{trigger:'#cover',start:'top top',end:'35% top',scrub:true}});
+   gsap.fromTo('.qx-cover-word .brand-logo',{scale:.97,transformOrigin:'0% 50%'},{scale:1,ease:'none',scrollTrigger:{trigger:'#cover',start:'top top',end:'35% top',scrub:true}});
    study.querySelectorAll('.qx-ia-connectors path').forEach(p=>{const l=p.getTotalLength();gsap.fromTo(p,{strokeDasharray:l,strokeDashoffset:l},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'#flow-and-architecture',start:'top 75%',end:'35% 50%',scrub:true}})});
    gsap.fromTo('.qx-ia-node',{y:18},{y:-8,stagger:.12,ease:'none',scrollTrigger:{trigger:'.qx-ia-map',start:'top 80%',end:'bottom 30%',scrub:true}});
    gsap.to('.qx-evolution-draft',{clipPath:'inset(0 0 100% 0)',ease:'none',scrollTrigger:{trigger:'#ideation-to-interface',start:'top 60%',end:'bottom 65%',scrub:true}});
