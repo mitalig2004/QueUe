@@ -16,4 +16,14 @@ Run `node scripts/capture-case-study.mjs` against a running dev server (default5
 
 ## Visual-first edition
 
-`/work/queue` is now an18-chapter visual presentation. The detailed research/IA/validation edition remains at `/work/queue/evidence`. See `docs/QUEUE_VISUAL_DIRECTION.md` and `docs/QUEUE_VISUAL_STUDY_CHECKS.json`. `node scripts/export-queue-behance.mjs` creates the1400px-wide PNG panels in `exports/queue-behance/`; `node scripts/review-visual-exports.mjs` creates their contact sheet. `node tests/visual-case-study.mjs` checks the visual route; the earlier case-study test now targets the detailed evidence route.
+The earlier 18-chapter visual edition and rendered videos remain archived in exports/queue-behance/. The current native illustrated edition uses24 chapters in exports/queue-illustrated/. Detailed product evidence remains at /work/queue/evidence.
+
+## Illustrated QUEUE exhibition
+
+The current /work/queue presentation uses24 illustrated spreads and native GSAP ScrollTrigger storytelling. No video players are embedded. Functional application screens and fixture data remain unchanged.
+
+- `node scripts/create-queue-art.mjs`: regenerate33 original reusable SVG assets.
+- `node tests/queue-exhibition.mjs`: responsive, accessibility, XML asset and reversible animation checks.
+- `node scripts/export-queue-exhibition.mjs`: export24 static1400px chapters and the reusable asset pack.
+
+Use QUEUE_URL to select the local preview. See docs/QUEUE_ILLUSTRATED_DIRECTION.md for the visual language, character evaluation and scope boundaries. Previous motion MP4s remain archived deliverables; the current website tells the story through native scroll motion.

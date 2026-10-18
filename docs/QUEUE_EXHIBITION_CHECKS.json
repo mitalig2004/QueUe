@@ -1,0 +1,62 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1600,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 375,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Fixture delay preserves arrival and updates start/buffer; reversible buttons",
+    "Reduced motion: all five scenes in document flow, no pinning",
+    "33 standalone SVG assets load and parse as valid XML",
+    "Keyboard skip link",
+    "Desktop pinned journey progresses and reverses to the same scroll position",
+    "Live reduced-motion preference changes revert and restore animation contexts",
+    "Resize to mobile removes pinning and restores stacked scenes",
+    "Short landscape viewport uses unpinned stacked storytelling",
+    "Product route remains functional after leaving exhibition"
+  ],
+  "errors": []
+}
